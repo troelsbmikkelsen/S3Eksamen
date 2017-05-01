@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="96952fdf-364e-4251-83c3-17eee586a49a" name="S3_UML_Wrappers" linkedPackageId="240d148c-45f3-4185-b878-744d1d9b3155" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="e1a15478-6d33-49c8-9a10-91ef0fade9fd" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="dc32fc70-f117-465c-91c9-06da560b9c30" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8d9c7466-51e3-4054-b57f-9dcb7cf2f5d9">
+          <propertyInstance Id="ddfc74d4-97fa-4569-95c5-b5139dc9583f" name="BaseName">
+            <elementDefinition Id="81fa3380-5cba-438a-abb3-bd6843389535" />
+          </propertyInstance>
+          <elementDefinition Id="ec988446-3c01-4532-854b-65c3ffabe260" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="530f34bd-0cc6-4089-b981-71a6b990f65e">
+          <propertyInstance Id="8cefda08-e252-445d-9853-39773c93deb8" name="ClrAttributes">
+            <elementDefinition Id="819c76ae-fe3c-4678-9f0e-9d6133dea1f7" />
+          </propertyInstance>
+          <elementDefinition Id="061c6dfb-640a-4bb4-aedc-490ca05a6309" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="33b0b6de-d7ec-4387-9fee-a66ffdeb494c">
+          <propertyInstance Id="c4cc996c-bd9d-4b0b-ab41-bc2e124201f5" name="Usings">
+            <elementDefinition Id="c6140c14-9b10-45f5-919e-f5042acef0be" />
+          </propertyInstance>
+          <elementDefinition Id="1f7e81c1-9bef-435d-9a85-3ade8172e160" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="762c2032-07b5-4a33-b844-ab4535cba4fd" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="c413df82-b728-47e5-a878-0aa6cf80d6a6" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="306751d0-8bed-4c06-a844-b23caed42745">
+          <propertyInstance Id="cdc08d6e-8689-44a4-a0bc-f00cc10a8db7" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="770f985f-eb04-4931-af1b-11add05bd3c1" />
+          </propertyInstance>
+          <elementDefinition Id="a44fee76-b322-4788-bc93-3fc8993fff45" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="14bb2d93-b2f4-4c04-adaf-141bd759b2b6">
+          <propertyInstance Id="9a94d2ba-4403-46f9-9171-e33d4178e4fd" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="70b1299c-d77f-4610-a926-1193a5d4a139" />
+          </propertyInstance>
+          <elementDefinition Id="4b7242d9-d4d5-417d-a507-7edf808838f7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bdfc6eb2-5611-4496-b4bc-e79df71b7a59">
+          <propertyInstance Id="b3932766-c6fa-4b80-9495-ea435e3c17fd" name="ProjectPath" value="ClassTemplate=..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj|EnumTemplate=..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj|InterfaceTemplate=..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj|StructTemplate=..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj">
+            <elementDefinition Id="5b4ebf05-2edb-4415-a3ba-d024c6c0aef6" />
+          </propertyInstance>
+          <elementDefinition Id="0b2dfe8e-3692-423b-9b83-a1294a387638" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8dcb051e-3966-4696-bcbd-060a86fa8ac9">
+          <propertyInstance Id="1c93a36e-cc93-408b-8a4d-446e3053c48a" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="cedb9580-f8b1-4a40-a6e7-228e02988117" />
+          </propertyInstance>
+          <elementDefinition Id="ec819803-c450-48c2-a341-15eb1db1a6ef" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9ee4f131-8cc4-4c18-a4c2-f0ac4a05a93f">
+          <propertyInstance Id="a2435faa-15a5-46ee-8ec1-74c7e4c8f464" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="e2780c90-41d2-4e1e-92ff-ee59b01c75ea" />
+          </propertyInstance>
+          <elementDefinition Id="ca78bfa5-1be0-4271-bf43-c0a7e3cef265" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0d1a3d40-fe6e-426b-a8d5-de4ab977dc34">
+          <propertyInstance Id="9bd959e1-303e-45eb-b743-aa9f9d25189c" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="1f09ef7f-9cb2-45ec-95cc-456567fb343a" />
+          </propertyInstance>
+          <elementDefinition Id="66d62e57-0e51-4a02-9848-b43f88697819" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="188416d8-d93b-4cb7-891a-482db953d666">
+          <propertyInstance Id="de3cd15b-7e0e-439e-85e2-6724feff5990" name="Parameters">
+            <elementDefinition Id="0d3e92fc-ead6-40ae-bc27-a48826f2f32e" />
+          </propertyInstance>
+          <elementDefinition Id="4bc69169-8a29-4abc-a949-5255dc4e475c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="3eb74f96-da60-4090-ac24-444c8e9873a9">
+      <profileInstance Id="5e3f2fff-b5c2-4bf3-955b-3cf509bef916" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7453d564-1c97-4573-a162-e29720e5439f">
+      <profileInstance Id="2ed5f351-cd0e-4840-ac5f-20c5181b37fd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1bcccb9e-9212-4b2a-ac26-a933fcc69899">
+      <profileInstance Id="2ce927a5-bf1b-4b25-b106-3431ca93b472" name="CSharpProfile">
+        <elementDefinition Id="519b013a-e1dc-4612-86e9-795ad2e4a320" />
+      </profileInstance>
+      <elementDefinition Id="6a1bfe9f-7ef5-4a8c-9764-d3d4cc890932" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3aec15e8-1969-489f-b9bf-c3e55e638bb0">
+      <profileInstance Id="8d918228-81ba-4983-9f6e-7f50af5674c2" name="TextTemplateBindings">
+        <elementDefinition Id="cfbde74a-f856-4a60-9dd3-3da266355ce4" />
+      </profileInstance>
+      <elementDefinition Id="265b2bbf-5962-4acd-b586-021200eaed9f" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dcac87d8-8441-494a-97b4-6cc1a8f60280" name="AgentWrapper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="588bf706-539b-49b2-91cd-d634b0772e94" />
+        <ownedOperationsInternal>
+          <operation Id="3e1d5ac9-d217-4d46-90da-e9fff1de34f6" name="GetAllAgents" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1fea189d-0323-4ea4-9943-a475cfe187bd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9960b1f7-f266-4831-a4a4-0aeb34fa0695" direction="Return" isUnique="false">
+                  <elementDefinition Id="3911c5e5-0d0a-48e4-916c-43877a82b144" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7c72b52f-3205-44a9-8583-a249cb4571fb" LastKnownName="List&lt;Agent&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="61b5ba45-91e7-479f-a678-4476085bfbb9" name="SaveAgent" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c8788ea3-40df-43ca-9f26-7be76ed93186" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="67a1ea54-2271-49bc-bbb9-c67aefc0d5ad" name="agent" direction="In" isUnique="false">
+                  <elementDefinition Id="fef05299-9f05-4851-9209-a1b044f96299" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3e8a968e-97e4-42fd-ae46-a296a56577de" LastKnownName="Agent" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8fd70352-ec70-495f-a73c-3919344b85e3" name="InformerWrapper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="928a3c67-16c1-4b81-a984-258c8067d82a" />
+        <ownedOperationsInternal>
+          <operation Id="981884c0-2c5f-44b3-98f4-7eb8b4d71d03" name="GetAllInformers" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c1d0251a-5d30-48c0-97d6-5551fc5c5fd6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f5349b06-3834-4f1e-8ed1-cc330970591a" direction="Return" isUnique="false">
+                  <elementDefinition Id="22f5a59c-b6b2-48a9-bf6b-a2f5a47e3841" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="dd46f2a6-445c-4345-9ffb-646f7db82213" LastKnownName="List&lt;Informer&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0b383b64-8b42-497a-ada4-e338b5b6acf0" name="SaveInformer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="21a400bd-e394-42b4-8f0e-6c7fc133ab71" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e636a6ec-40a8-49e7-bd07-512b3edeb631" name="informer" direction="In" isUnique="false">
+                  <elementDefinition Id="91d4f5b8-3339-4184-a9df-e012fc44445b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5514f488-1cb3-4705-9227-4267a1e19b12" LastKnownName="Informer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5b15a08-f9cf-43e4-821b-4c221317c9af" name="ObservedWrapper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e1722572-2b39-4fd3-bce3-bfb8026b9209" />
+        <ownedOperationsInternal>
+          <operation Id="8fb96760-dfd2-4ba9-b885-239181c47728" name="GetAllObserved" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2f7973cb-066a-49b7-8de7-b691627c59bf" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3bda4d04-6b97-4547-a413-46f3b3fa80d2" direction="Return" isUnique="false">
+                  <elementDefinition Id="5b072e6f-1f40-4854-8cf9-a3dfd23e2b8e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fac0459a-3f34-42f8-8996-8c125fe3edf9" LastKnownName="List&lt;Observed&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d1b1e815-802f-4de2-9352-10a8dfd4a158" name="SaveObserved" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7f702946-5bb9-4295-a263-02bc3a92a97d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1882b150-b587-4e4c-9179-149aac241405" name="observed" direction="In" isUnique="false">
+                  <elementDefinition Id="232b48af-31b6-406b-af85-84b9df86eeb1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bffcefe9-5afd-4438-a9d7-c9d556956023" LastKnownName="Observed" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="3e8a968e-97e4-42fd-ae46-a296a56577de" name="Agent" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Agent">
+        <elementDefinition Id="8c291f2e-0c67-4957-8df6-77552a04e07f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5514f488-1cb3-4705-9227-4267a1e19b12" name="Informer" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Informer">
+        <elementDefinition Id="7b62a83c-2049-4aed-8e9c-a22f27beae04" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dd46f2a6-445c-4345-9ffb-646f7db82213" name="List&lt;Informer&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Informer&gt;">
+        <elementDefinition Id="c40bccfe-b91b-4f25-a70a-a88f954349f3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7c72b52f-3205-44a9-8583-a249cb4571fb" name="List&lt;Agent&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Agent&gt;">
+        <elementDefinition Id="24e31a87-5152-462f-b1eb-3b343a00bfe1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fac0459a-3f34-42f8-8996-8c125fe3edf9" name="List&lt;Observed&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Observed&gt;">
+        <elementDefinition Id="33722d64-4d1c-49d9-9d25-71330990a1a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bffcefe9-5afd-4438-a9d7-c9d556956023" name="Observed" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Observed">
+        <elementDefinition Id="f75c2b88-4de5-45ef-a1c4-572901c0e505" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5ccdb4c3-484d-41d3-a8e4-dd7a6705223a" name="PET" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="14971b8c-749e-4ec7-8472-e253172bac19" />
+        <ownedOperationsInternal>
+          <operation Id="4f40ab27-cfb7-4651-87dd-84123c441611" name="Login" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ab54752d-283d-47a6-80dc-459b24cc8e92" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8f77be77-dc63-4319-9766-debf150a3a60" name="username" direction="In" isUnique="false">
+                  <elementDefinition Id="5bc6406e-c576-4183-af87-7d1842d6a111" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1de83189-7795-4a72-b12e-639c1c320718" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a60af77f-8e92-40fc-bdcd-2861ecb5d369" name="password_hash" direction="In" isUnique="false">
+                  <elementDefinition Id="dde1065d-6a01-448f-a7f5-a649ac314c19" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1de83189-7795-4a72-b12e-639c1c320718" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dd5588dd-0ffd-48ed-946e-8cf9ca413d18" direction="Return" isUnique="false">
+                  <elementDefinition Id="18cc9810-7f01-49d8-b229-814b2712f8e0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2ff07a6e-ccf8-4e71-8a9c-3e395638f16b" LastKnownName="Person" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="1de83189-7795-4a72-b12e-639c1c320718" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="eff6c272-4825-4591-9345-f00bebb844f7" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2ff07a6e-ccf8-4e71-8a9c-3e395638f16b" name="Person" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Person">
+        <elementDefinition Id="7184a8b3-444b-47ed-b508-44812f116d50" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="240d148c-45f3-4185-b878-744d1d9b3155" name="S3_Eksamen_Modeller">
+    <elementDefinition Id="ec9c5913-0227-4452-a8f2-370896959ebc" />
+  </package>
+</logicalClassDesignerModel>

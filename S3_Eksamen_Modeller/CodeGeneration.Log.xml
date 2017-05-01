@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-05-01T14:20:56" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="ProjectPath = ..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:20:57" Importance="Medium" Text="S3_Eksamen_Modeller's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'S3_Eksamen_Modeller::Appearance' -  (Class), 'S3_Eksamen_Modeller::Address' -  (Class), 'S3_Eksamen_Modeller::Person' -  (Class), 'S3_Eksamen_Modeller::Image' -  (Class), 'S3_Eksamen_Modeller::Agent' -  (Class), 'S3_Eksamen_Modeller::Informer' -  (Class), 'S3_Eksamen_Modeller::Observed' -  (Class), 'S3_Eksamen_Modeller::Group' -  (Class), 'S3_Eksamen_Modeller::Report' -  (Class) " />
+  <Message Timestamp="2017-05-01T14:21:18" Importance="Medium" Text="Project Added: C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj" />
+  <Message Timestamp="2017-05-01T14:21:18" Importance="Medium" Text="'S3_Eksamen_Modeller::Appearance' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Appearance.cs" />
+  <Message Timestamp="2017-05-01T14:21:19" Importance="Medium" Text="'S3_Eksamen_Modeller::Address' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Address.cs" />
+  <Message Timestamp="2017-05-01T14:21:19" Importance="Medium" Text="'S3_Eksamen_Modeller::Person' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Person.cs" />
+  <Message Timestamp="2017-05-01T14:21:19" Importance="Medium" Text="'S3_Eksamen_Modeller::Image' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Image.cs" />
+  <Message Timestamp="2017-05-01T14:21:20" Importance="Medium" Text="'S3_Eksamen_Modeller::Agent' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Agent.cs" />
+  <Message Timestamp="2017-05-01T14:21:20" Importance="Medium" Text="'S3_Eksamen_Modeller::Informer' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Informer.cs" />
+  <Message Timestamp="2017-05-01T14:21:20" Importance="Medium" Text="'S3_Eksamen_Modeller::Observed' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Observed.cs" />
+  <Message Timestamp="2017-05-01T14:21:20" Importance="Medium" Text="'S3_Eksamen_Modeller::Group' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Group.cs" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Medium" Text="'S3_Eksamen_Modeller::Report' -  (Class) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\Report.cs" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="Name = EnumTemplate" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="ProjectPath = ..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Medium" Text="S3_Eksamen_Modeller's Text Template Binding: 'EnumTemplate' will apply EnumTemplate.t4 to: 'S3_Eksamen_Modeller::PaymentType' -  (Enumeration) " />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Medium" Text="'S3_Eksamen_Modeller::PaymentType' -  (Enumeration) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\PaymentType.cs" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="ProjectPath = ..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Medium" Text="S3_Eksamen_Modeller's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'S3_Eksamen_Modeller::IUser' -  (Interface) " />
+  <Message Timestamp="2017-05-01T14:21:21" Importance="Medium" Text="'S3_Eksamen_Modeller::IUser' -  (Interface) : success (file created) - C:\Users\troe2306\Softwarekonstruktion\S3\Eksamen\S3Eksamen\S3_Eksamen_ModellerLib\GeneratedCode\IUser.cs" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="ProjectPath = ..\S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Medium" Text="S3_Eksamen_Modeller's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'S3_Eksamen_Modeller::Appearance' -  (Class), 'S3_Eksamen_Modeller::Address' -  (Class), 'S3_Eksamen_Modeller::Person' -  (Class), 'S3_Eksamen_Modeller::Image' -  (Class), 'S3_Eksamen_Modeller::Agent' -  (Class), 'S3_Eksamen_Modeller::Informer' -  (Class), 'S3_Eksamen_Modeller::Observed' -  (Class), 'S3_Eksamen_Modeller::Group' -  (Class), 'S3_Eksamen_Modeller::Report' -  (Class) " />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Appearance' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Address' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Person' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Image' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Agent' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Informer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Observed' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Group' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:22" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::Report' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="The selection included 6 elements which were not bound to a template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="'8f980ae3-4ff9-4f81-b99c-5a0a652a9157' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="'8b3a2274-ab61-4cbf-9141-e525878869a4' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="'295324ef-76fa-4e42-91f1-e4bd42a9ee40' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="Diagnostic" Text="'S3_Eksamen_Modeller::' -  (Association): no bound template." />
+  <Message Timestamp="2017-05-01T14:21:23" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

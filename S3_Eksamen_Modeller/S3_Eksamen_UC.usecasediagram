@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="0cdd6969-4c8f-4440-8528-b1eeed0f1925" name="S3_Eksamen_UC" linkedPackageId="85fce54f-5440-4754-bef7-dbdae3698042" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="d1686bc4-6874-40f7-a78b-8f73f8318abe">
+      <profileInstance Id="13409291-b535-4612-9e22-fc506596b71a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="edd8e964-401a-4196-a78b-a080b8fd4dac">
+      <profileInstance Id="d3d94c24-82ce-445c-98ef-31f1bf6e7743" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="c869f652-df94-4d42-805b-008808cb7758" name="Agent" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c291f2e-0c67-4957-8df6-77552a04e07f" />
+        <targetEnds>
+          <association Id="8d1ff0fd-7a50-473c-8f5a-956af34ebd08" isDerived="false" sourceEndRoleName="Agent" targetEndRoleName="Opret person" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c134a8bf-84df-4659-bea5-73ce2ae2cb11" LastKnownName="Opret person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b9321df-0344-4424-8d06-a24dd51f4588" name="Agent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ff5a9a3f-b44e-4eb8-ac45-13ef48f857dd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae2ebd99-4f4a-4c11-b207-873cc85d2e5c" name="Opret person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="da24810e-558e-4bea-9629-91492da0606e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d66d13c6-38ec-46cf-8079-3fb32bd76509" />
+          </association>
+          <association Id="6b388810-fb1c-49b5-8cec-ae805ad60a68" isDerived="false" sourceEndRoleName="Agent" targetEndRoleName="Ajourfør person" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b962fa31-c9f8-4e4e-8b7b-2336baf7a35f" LastKnownName="Ajourfør person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="53c23a0f-1d41-436b-b1ab-f9861b8721a8" name="Agent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2370bacf-c1ca-44b3-921b-76c38099c255" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="41201496-990f-46fe-b8ef-69f15d0ff5f4" name="Ajourfør person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7d4e50e6-c97b-4317-b495-6acf8f13502c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1c64e107-6a55-44cd-b5b4-721f583ed723" />
+          </association>
+          <association Id="b47d8260-205c-4801-bc93-07c437b4f782" isDerived="false" sourceEndRoleName="Agent" targetEndRoleName="Slet person" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="90515c0e-6f0f-4529-95e4-df907aedbb00" LastKnownName="Slet person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62d8e32d-92d7-43a9-86d3-b8bf67418a6f" name="Agent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="045894be-c1e2-419f-aedc-9153234ed548" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="69049f5a-41f0-4687-b2d5-53872cbe30de" name="Slet person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="60e5ae17-9c25-4201-9015-b6f030b7b179" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e5389961-800c-49eb-9dfa-82d2cb1e7c6f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c134a8bf-84df-4659-bea5-73ce2ae2cb11" name="Opret person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3d497224-f191-4e94-b798-b53e7984f733" />
+        <subjects>
+          <subsystemMoniker Id="c5cfb65d-521a-4bb6-9223-3a4bee3ff34b" LastKnownName="person" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="c5cfb65d-521a-4bb6-9223-3a4bee3ff34b" name="person" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <ownedCommentsInternal>
+          <comment Id="08760187-c9ad-451e-baae-d6555a8ce301">
+            <elementDefinition Id="75deb9c5-813d-4bb2-ae93-f78767a50145" />
+            <body>1. Vælg persontype
+2. Indtast oplysninger
+3. Gem person</body>
+            <annotatedElements>
+              <useCaseMoniker Id="c134a8bf-84df-4659-bea5-73ce2ae2cb11" LastKnownName="Opret person" />
+            </annotatedElements>
+          </comment>
+          <comment Id="068f482b-df46-48cc-89f6-d3cbf71e8575">
+            <elementDefinition Id="e8824e4e-dd25-4ec5-8f4e-664a0e14da27" />
+            <body>1. Vælg person
+2. Ændre oplysninger
+3. Gem person</body>
+            <annotatedElements>
+              <useCaseMoniker Id="b962fa31-c9f8-4e4e-8b7b-2336baf7a35f" LastKnownName="Ajourfør person" />
+            </annotatedElements>
+          </comment>
+          <comment Id="70ef5c90-81e1-4851-9c1a-f1f490a71930">
+            <elementDefinition Id="2ccc3c99-7c2b-483b-b0aa-66f1c4339c7e" />
+            <body>1. Vælg person
+2. Slet person</body>
+            <annotatedElements>
+              <useCaseMoniker Id="90515c0e-6f0f-4529-95e4-df907aedbb00" LastKnownName="Slet person" />
+            </annotatedElements>
+          </comment>
+        </ownedCommentsInternal>
+        <elementDefinition Id="a6d6d783-af8c-4bc9-8168-0490d7a127a7" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="b962fa31-c9f8-4e4e-8b7b-2336baf7a35f" name="Ajourfør person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="852935ac-256d-4948-8f79-8a20cd30f887" />
+        <subjects>
+          <subsystemMoniker Id="c5cfb65d-521a-4bb6-9223-3a4bee3ff34b" LastKnownName="person" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="90515c0e-6f0f-4529-95e4-df907aedbb00" name="Slet person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="08df4bfe-dcbc-452f-acb6-1823b0860b33" />
+        <subjects>
+          <subsystemMoniker Id="c5cfb65d-521a-4bb6-9223-3a4bee3ff34b" LastKnownName="person" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="85fce54f-5440-4754-bef7-dbdae3698042" name="S3_Eksamen_Modeller">
+    <elementDefinition Id="ec9c5913-0227-4452-a8f2-370896959ebc" />
+  </package>
+</useCaseModelRoot>
