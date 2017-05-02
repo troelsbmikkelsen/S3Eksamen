@@ -42,15 +42,22 @@
   <ItemGroup>
     <Compile Include="GeneratedCode\Address.cs" />
     <Compile Include="GeneratedCode\Agent.cs" />
+    <Compile Include="GeneratedCode\AgentWrapper.cs" />
     <Compile Include="GeneratedCode\Appearance.cs" />
     <Compile Include="GeneratedCode\Group.cs" />
     <Compile Include="GeneratedCode\Image.cs" />
     <Compile Include="GeneratedCode\Informer.cs" />
+    <Compile Include="GeneratedCode\InformerWrapper.cs" />
+    <Compile Include="GeneratedCode\InfoWrapper.cs" />
     <Compile Include="GeneratedCode\IUser.cs" />
     <Compile Include="GeneratedCode\Observed.cs" />
+    <Compile Include="GeneratedCode\ObservedWrapper.cs" />
     <Compile Include="GeneratedCode\PaymentType.cs" />
     <Compile Include="GeneratedCode\Person.cs" />
+    <Compile Include="GeneratedCode\PET.cs" />
     <Compile Include="GeneratedCode\Report.cs" />
+    <Compile Include="GeneratedCode\ReportWrapper.cs" />
+    <Compile Include="GeneratedCode\Report_Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

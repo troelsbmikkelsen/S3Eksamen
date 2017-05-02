@@ -4,14 +4,17 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using ClientServerLib;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum PaymentType : int
-{
-	Cash,
-	Check,
-	Transfer,
+namespace Database {
+    public class PET {
+        public static string connString = @"Data Source = CV - PC - T - 04\SQLEXPRESS; Initial Catalog = S3Eksamen; Integrated Security = True";
+
+    }
+
 }

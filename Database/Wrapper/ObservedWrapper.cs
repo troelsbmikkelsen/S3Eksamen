@@ -8,10 +8,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Entities;
 
-public enum PaymentType : int
-{
-	Cash,
-	Check,
-	Transfer,
+namespace Database {
+    public class ObservedWrapper {
+        public virtual List<Observed> GetAllObserved() {
+            throw new System.NotImplementedException();
+        }
+
+        public virtual void SaveObserved(Observed observed) {
+            throw new System.NotImplementedException();
+        }
+
+    }
+
+
 }

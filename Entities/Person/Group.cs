@@ -9,9 +9,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum PaymentType : int
-{
-	Cash,
-	Check,
-	Transfer,
+namespace Entities {
+    public class Group {
+        public virtual List<Observed> Members
+        {
+            get;
+            set;
+        }
+
+        public virtual string Name
+        {
+            get;
+            set;
+        }
+
+        public virtual IEnumerable<Observed> Observed
+        {
+            get;
+            set;
+        }
+
+    }
+
 }

@@ -9,9 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum PaymentType : int
+public class PET
 {
-	Cash,
-	Check,
-	Transfer,
+	public virtual Person Login(string username, string password_hash)
+	{
+		throw new System.NotImplementedException();
+	}
+
 }
+

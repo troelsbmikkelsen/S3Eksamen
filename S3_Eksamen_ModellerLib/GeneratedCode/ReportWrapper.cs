@@ -9,54 +9,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Report
+public class ReportWrapper
 {
-	public virtual int Id
+	public virtual List<Report> GetReports(int person_id)
 	{
-		get;
-		set;
+		throw new System.NotImplementedException();
 	}
 
-	public virtual DateTime Time
+	public virtual List<Report_Log> GetReportLogs(int id)
 	{
-		get;
-		set;
+		throw new System.NotImplementedException();
 	}
 
-	public virtual DateTime Date
+	public virtual void SaveReport(Report report)
 	{
-		get;
-		set;
-	}
-
-	public virtual string Place
-	{
-		get;
-		set;
-	}
-
-	public virtual int Observed_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Comment
-	{
-		get;
-		set;
-	}
-
-	public virtual int Author_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Content
-	{
-		get;
-		set;
+		throw new System.NotImplementedException();
 	}
 
 }

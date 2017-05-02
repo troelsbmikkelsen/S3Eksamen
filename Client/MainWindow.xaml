@@ -5,8 +5,83 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="480" Width="640">
+    <StackPanel>
+        <TabControl>
+            <TabItem Name="tabitemStart" Header="Start">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5" HorizontalAlignment="Center">
+                        <Label Content="Brugernavn" HorizontalAlignment="Left"></Label>
+                        <TextBox Name="txtUsername" Width="100" HorizontalAlignment="Left"></TextBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="0 5" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Kode"></Label>
+                        <TextBox Name="txtPassword" Width="100"></TextBox>
+                    </StackPanel>
+
+                    <Button Name="btnLogin" Content="Login" Width="100" Click="btnLogin_Click"></Button>
+                </StackPanel>
+            </TabItem>
+            
+            <TabItem Name="tabitemInformer" Header="Informanter" IsEnabled="False">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <Button Name="btnCreateInformer" Content="Opret ny informant" Margin="0 5"></Button>
+                        <Button Name="btnGetInformers" Content="Hent alle informanter" Margin="0 5" Click="btnGetInformers_Click"></Button>
+                        <ListBox Name="lstBoxInformers" Margin="0 5" MinHeight="180" MaxHeight="180"></ListBox>
+                        <Button Name="btnUpdateInformer" Content="Ajourfør valgt informant" Margin="0 5"></Button>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <Image Name="imgInformer" Width="192" Height="192"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 5">
+                            <Label Content="Id"/>
+                            <TextBox Name="txtInformerId" Width="62"/>
+                            <Label Content="CPR"/>
+                            <TextBox Name="txtInformerCPR" Width="80"/>
+                            <Label Content="Nationalitet"/>
+                            <TextBox Name="txtInformerNationality" Width="55"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 5">
+                            <Label Content="Navn"/>
+                            <TextBox Name="txtInformerName" Width="300"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 5">
+                            <Label Content="Valuta"/>
+                            <TextBox Name="txtInformerCurrency" Width="300"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 5">
+                            <Label Content="Betalingsform"/>
+                            <TextBox Name="txtInformerPaymenttype" Width="300"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 5">
+                            <Label Content="Tags"/>
+                            <TextBox Name="txtInformerTags" Width="300"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tabitemObserved" Header="Observanter" IsEnabled="False">
+
+            </TabItem>
+
+            <TabItem Name="tabitemAgent" Header="Agenter" IsEnabled="False">
+
+            </TabItem>
+        </TabControl>
+
+    </StackPanel>
 </Window>

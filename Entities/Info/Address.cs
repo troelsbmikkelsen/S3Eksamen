@@ -9,51 +9,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Report
+public class Address
 {
+	public virtual string Street
+	{
+		get;
+		set;
+	}
+
+	public virtual string AreaCode
+	{
+		get;
+		set;
+	}
+
 	public virtual int Id
-	{
-		get;
-		set;
-	}
-
-	public virtual DateTime Time
-	{
-		get;
-		set;
-	}
-
-	public virtual DateTime Date
-	{
-		get;
-		set;
-	}
-
-	public virtual string Place
-	{
-		get;
-		set;
-	}
-
-	public virtual int Observed_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Comment
-	{
-		get;
-		set;
-	}
-
-	public virtual int Author_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Content
 	{
 		get;
 		set;

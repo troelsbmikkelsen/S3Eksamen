@@ -9,54 +9,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Report
+public class InformerWrapper
 {
-	public virtual int Id
+	public virtual List<Informer> GetAllInformers()
 	{
-		get;
-		set;
+		throw new System.NotImplementedException();
 	}
 
-	public virtual DateTime Time
+	public virtual void SaveInformer(Informer informer)
 	{
-		get;
-		set;
-	}
-
-	public virtual DateTime Date
-	{
-		get;
-		set;
-	}
-
-	public virtual string Place
-	{
-		get;
-		set;
-	}
-
-	public virtual int Observed_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Comment
-	{
-		get;
-		set;
-	}
-
-	public virtual int Author_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Content
-	{
-		get;
-		set;
+		throw new System.NotImplementedException();
 	}
 
 }

@@ -21,6 +21,8 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "S3_Eksamen_Modeller", "S3_E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3_Eksamen_ModellerLib", "S3_Eksamen_ModellerLib\S3_Eksamen_ModellerLib.csproj", "{137D211D-ED93-46B1-AA2E-A195C4995C1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientServerLib", "ServerLib\ClientServerLib.csproj", "{2643872F-38B9-41F9-AAE8-AD6201F656F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{137D211D-ED93-46B1-AA2E-A195C4995C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{137D211D-ED93-46B1-AA2E-A195C4995C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{137D211D-ED93-46B1-AA2E-A195C4995C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2643872F-38B9-41F9-AAE8-AD6201F656F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2643872F-38B9-41F9-AAE8-AD6201F656F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2643872F-38B9-41F9-AAE8-AD6201F656F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2643872F-38B9-41F9-AAE8-AD6201F656F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{583DAEC7-1F13-4CE6-BE84-8629E527BA09} = {AB81FEFA-BDE3-444D-B4E8-55AD0227D56E}
 		{B9B666DC-4DDA-4996-BE67-25EEEA3D1480} = {0C22E670-DDBE-4051-97DA-76CEFEA37E85}
 		{86F892A1-0B64-4638-81E1-CA53BE49F9DB} = {0C22E670-DDBE-4051-97DA-76CEFEA37E85}
+		{2643872F-38B9-41F9-AAE8-AD6201F656F3} = {AB81FEFA-BDE3-444D-B4E8-55AD0227D56E}
 	EndGlobalSection
 EndGlobal

@@ -9,9 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum PaymentType : int
-{
-	Cash,
-	Check,
-	Transfer,
+namespace Entities {
+    public enum PaymentType : int {
+        Cash,
+        Check,
+        Transfer,
+    }
+
 }

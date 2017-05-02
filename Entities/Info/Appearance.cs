@@ -9,51 +9,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Report
+public class Appearance
 {
+	public virtual float Height
+	{
+		get;
+		set;
+	}
+
+	public virtual string Eyecolor
+	{
+		get;
+		set;
+	}
+
+	public virtual string Haircolor
+	{
+		get;
+		set;
+	}
+
 	public virtual int Id
-	{
-		get;
-		set;
-	}
-
-	public virtual DateTime Time
-	{
-		get;
-		set;
-	}
-
-	public virtual DateTime Date
-	{
-		get;
-		set;
-	}
-
-	public virtual string Place
-	{
-		get;
-		set;
-	}
-
-	public virtual int Observed_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Comment
-	{
-		get;
-		set;
-	}
-
-	public virtual int Author_Id
-	{
-		get;
-		set;
-	}
-
-	public virtual string Content
 	{
 		get;
 		set;

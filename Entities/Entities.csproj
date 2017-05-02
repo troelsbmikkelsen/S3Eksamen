@@ -40,13 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Info\Address.cs" />
+    <Compile Include="Person\Agent.cs" />
+    <Compile Include="Info\Appearance.cs" />
+    <Compile Include="Person\Group.cs" />
+    <Compile Include="Info\Image.cs" />
+    <Compile Include="Person\Informer.cs" />
+    <Compile Include="Person\IUser.cs" />
+    <Compile Include="Person\Observed.cs" />
+    <Compile Include="Person\PaymentType.cs" />
+    <Compile Include="Person\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\Report.cs" />
+    <Compile Include="Report\Report_Log.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Info\" />
-    <Folder Include="Person\" />
-    <Folder Include="Report\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

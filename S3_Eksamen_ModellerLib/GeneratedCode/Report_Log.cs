@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Report
+public class Report_Log
 {
 	public virtual int Id
 	{
@@ -54,6 +54,12 @@ public class Report
 	}
 
 	public virtual string Content
+	{
+		get;
+		set;
+	}
+
+	public virtual int Report_Id
 	{
 		get;
 		set;

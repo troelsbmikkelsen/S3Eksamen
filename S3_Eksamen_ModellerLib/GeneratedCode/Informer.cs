@@ -17,7 +17,7 @@ public class Informer : Person, IUser
 		set;
 	}
 
-	public virtual PaymentType PaymentType
+	public virtual string PaymentType
 	{
 		get;
 		set;

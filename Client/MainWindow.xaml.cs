@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Database;
 
 namespace Client {
     /// <summary>
@@ -20,6 +21,16 @@ namespace Client {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e) {
+            tabitemAgent.IsEnabled = true;
+            tabitemObserved.IsEnabled = true;
+            tabitemInformer.IsEnabled = true;
+        }
+
+        private void btnGetInformers_Click(object sender, RoutedEventArgs e) {
+            lstBoxInformers.ItemsSource = InformerWrapper.GetAllInformers();
         }
     }
 }
