@@ -72,32 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="3eb74f96-da60-4090-ac24-444c8e9873a9">
-      <profileInstance Id="5e3f2fff-b5c2-4bf3-955b-3cf509bef916" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="7453d564-1c97-4573-a162-e29720e5439f">
-      <profileInstance Id="2ed5f351-cd0e-4840-ac5f-20c5181b37fd" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="1bcccb9e-9212-4b2a-ac26-a933fcc69899">
-      <profileInstance Id="2ce927a5-bf1b-4b25-b106-3431ca93b472" name="CSharpProfile">
-        <elementDefinition Id="519b013a-e1dc-4612-86e9-795ad2e4a320" />
-      </profileInstance>
-      <elementDefinition Id="6a1bfe9f-7ef5-4a8c-9764-d3d4cc890932" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="3aec15e8-1969-489f-b9bf-c3e55e638bb0">
-      <profileInstance Id="8d918228-81ba-4983-9f6e-7f50af5674c2" name="TextTemplateBindings">
-        <elementDefinition Id="cfbde74a-f856-4a60-9dd3-3da266355ce4" />
-      </profileInstance>
-      <elementDefinition Id="265b2bbf-5962-4acd-b586-021200eaed9f" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="dcac87d8-8441-494a-97b4-6cc1a8f60280" name="AgentWrapper" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -274,8 +248,240 @@
         <elementDefinition Id="7184a8b3-444b-47ed-b508-44812f116d50" />
       </referencedType>
     </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="aeec139a-6fac-426f-b2b7-52fdfcabce3c" name="ReportWrapper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8abcaac5-49f7-427a-9dc0-50fbb47146e5" />
+        <ownedOperationsInternal>
+          <operation Id="08abfcac-6b9d-4f3d-aede-a64b463008b7" name="GetReports" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cd3a2d9e-fd77-4a7e-80b2-bcb5c7250ffa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="21eabce9-6652-47c5-a39f-ef94b501d0fb" direction="Return" isUnique="false">
+                  <elementDefinition Id="a77f783a-bc35-4c56-b5bf-66199cfea8f6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d0f5a1a7-f521-4883-94de-2811d3e905da" LastKnownName="List&lt;Report&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="861c353e-78ec-4d29-bf49-4850bea96119" name="person_id" direction="In" isUnique="false">
+                  <elementDefinition Id="b217e0bc-2fdf-43ea-9a9f-5c65ff41504d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="54fead10-eda6-4560-bf9b-e5fe77c090d3" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d3b4ee92-51cd-4d3d-abe3-22fc9bcbd9ea" name="GetReportLogs" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fc9b8ddd-2619-4b00-b067-848a15d9c1fc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="57ce48cb-afb6-4792-8023-4bd43c1ee516" name="id" direction="In" isUnique="false">
+                  <elementDefinition Id="3768e6d5-e356-4e55-bdca-99eb9655dae3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="54fead10-eda6-4560-bf9b-e5fe77c090d3" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="eed371d3-8215-41e7-a3a1-d79dbd5d73dc" direction="Return" isUnique="false">
+                  <elementDefinition Id="568b1d03-4cef-4e34-8263-45490baea0aa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3bbc0ac6-9142-4dbd-944a-6278d16b9887" LastKnownName="List&lt;Report_Log&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="88f70b0e-e2a8-47c9-9518-e90fd473ae66" name="SaveReport" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="08e576f4-a977-4754-9073-2111a55771aa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c2711fbb-de15-453e-8b49-c227f3f4261b" name="report" direction="In" isUnique="false">
+                  <elementDefinition Id="6883b0a7-6e2b-43c1-a013-1ea4d9f21429" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3fb29a76-a152-4155-acc9-dc354e83cf0e" LastKnownName="Report" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b6f9b4f6-f5e0-40c1-8c96-606aee4e3518" name="InfoWrapper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4776fee2-dff3-478e-a571-507d2c3392ca" />
+        <ownedOperationsInternal>
+          <operation Id="fc6a1317-0cd8-4c61-bf12-2f79c2cb070e" name="GetImage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c6e3da7a-3fba-4947-a79f-d825f95531eb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="beb03b9d-695f-4b18-a60d-0f7bec736fae" name="id" direction="In" isUnique="false">
+                  <elementDefinition Id="b37ec2b9-0e22-4895-a9f9-8951a3ab10a4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="54fead10-eda6-4560-bf9b-e5fe77c090d3" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ab163051-f9e8-4979-a61f-8babceb61741" direction="Return" isUnique="false">
+                  <elementDefinition Id="7141afd2-1f3c-441d-b204-e701703c6087" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9e4719bc-d3fe-4d36-a23d-1fe6dcebb05f" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="707e8414-b787-46cf-a590-4f7f3fc5bfa2" name="GetAddress" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="00b340b8-f9e7-454c-812c-2df098db02ca" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5ed83f95-ce36-4b33-9e52-79d8b4d0e0f0" name="id" direction="In" isUnique="false">
+                  <elementDefinition Id="904979d4-f68f-4726-8f58-37af3b29e284" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="54fead10-eda6-4560-bf9b-e5fe77c090d3" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c54f6979-1657-41a3-97aa-4abb0adad87e" direction="Return" isUnique="false">
+                  <elementDefinition Id="b87ea318-dbd2-4639-bd18-8d5b735e61df" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c228b3c3-55fd-41b6-b080-c9a329949204" LastKnownName="Address" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0646479f-318b-4fbf-89d8-c2ac5b9b328f" name="GetAppearence" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="da300da7-25c9-4ca2-b9d8-f5352880385a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0a16d205-ee77-417a-8ab0-de62045de9f5" name="id" direction="In" isUnique="false">
+                  <elementDefinition Id="fd39f9f7-bc16-4b98-b220-e90a838f13ba" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="54fead10-eda6-4560-bf9b-e5fe77c090d3" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f133fce1-c6c7-441c-8197-7802b637e7a3" direction="Return" isUnique="false">
+                  <elementDefinition Id="a3ed0d71-d40d-4c61-a8e6-a4da2d3ef9d7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6b8bca0c-842c-4846-8668-c4fc26fe650a" LastKnownName="Appearence" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="684c0f97-fc8a-4b17-92f0-4d02ef6096c8" name="SaveAddress" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f5dbbee5-2081-4101-91b1-aaefbd5b9732" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0ce11d0f-9e71-4db8-8190-c47c8de07983" name="address" direction="In" isUnique="false">
+                  <elementDefinition Id="3819b90f-6064-4e07-bafc-c26c150b8407" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c228b3c3-55fd-41b6-b080-c9a329949204" LastKnownName="Address" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0180cf71-4b13-4597-bf7e-e28f2049797e" name="SaveImage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a590d0bb-1d17-4030-9e44-095f5fd30583" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="466698e2-9b03-45e0-8646-ef8af2b6d416" name="image" direction="In" isUnique="false">
+                  <elementDefinition Id="0c8ca442-066d-4761-b309-a71e84d5495d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9e4719bc-d3fe-4d36-a23d-1fe6dcebb05f" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3e7c68ae-6409-4cd0-89b2-ac25e1c51c59" name="SaveAppearence" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4558c062-d967-447c-9521-2d56ca4eb73c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f9bb0057-12c6-4387-8003-560b65fd1f9e" name="appearence" direction="In" isUnique="false">
+                  <elementDefinition Id="7758898b-db89-4a47-8a69-31a8cd76de22" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6b8bca0c-842c-4846-8668-c4fc26fe650a" LastKnownName="Appearence" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="d0f5a1a7-f521-4883-94de-2811d3e905da" name="List&lt;Report&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Report&gt;">
+        <elementDefinition Id="57a46f9a-c625-41de-a2b2-ad87f7b15026" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="54fead10-eda6-4560-bf9b-e5fe77c090d3" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="85396d68-67eb-4b5d-90b8-d5d0b71572a1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3bbc0ac6-9142-4dbd-944a-6278d16b9887" name="List&lt;Report_Log&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Report_Log&gt;">
+        <elementDefinition Id="9cb0e7fe-8ac9-4c14-b178-988aaa1b72d2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3fb29a76-a152-4155-acc9-dc354e83cf0e" name="Report" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Report">
+        <elementDefinition Id="9660e42b-4b8f-426d-a34a-28489797fc65" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9e4719bc-d3fe-4d36-a23d-1fe6dcebb05f" name="Image" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Image">
+        <elementDefinition Id="e732d4f9-40ac-4790-81f8-9ea250f8f487" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c228b3c3-55fd-41b6-b080-c9a329949204" name="Address" isAbstract="false" isLeaf="false" cachedFullName="S3_Eksamen_Modeller::Address">
+        <elementDefinition Id="a8fe0311-2cdf-410c-ba2d-481e4d968182" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6b8bca0c-842c-4846-8668-c4fc26fe650a" name="Appearence" isAbstract="false" isLeaf="false" cachedFullName="Appearence">
+        <elementDefinition Id="3205a48c-2a77-4197-8682-5f18a957a00d" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="240d148c-45f3-4185-b878-744d1d9b3155" name="S3_Eksamen_Modeller">
     <elementDefinition Id="ec9c5913-0227-4452-a8f2-370896959ebc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3eb74f96-da60-4090-ac24-444c8e9873a9">
+        <profileInstance Id="5e3f2fff-b5c2-4bf3-955b-3cf509bef916" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7453d564-1c97-4573-a162-e29720e5439f">
+        <profileInstance Id="2ed5f351-cd0e-4840-ac5f-20c5181b37fd" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="1bcccb9e-9212-4b2a-ac26-a933fcc69899">
+        <profileInstance Id="2ce927a5-bf1b-4b25-b106-3431ca93b472" name="CSharpProfile">
+          <elementDefinition Id="519b013a-e1dc-4612-86e9-795ad2e4a320" />
+        </profileInstance>
+        <elementDefinition Id="6a1bfe9f-7ef5-4a8c-9764-d3d4cc890932" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3aec15e8-1969-489f-b9bf-c3e55e638bb0">
+        <profileInstance Id="8d918228-81ba-4983-9f6e-7f50af5674c2" name="TextTemplateBindings">
+          <elementDefinition Id="cfbde74a-f856-4a60-9dd3-3da266355ce4" />
+        </profileInstance>
+        <elementDefinition Id="265b2bbf-5962-4acd-b586-021200eaed9f" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
